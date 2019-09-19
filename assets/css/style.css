@@ -27,6 +27,7 @@ nav {
     float: right;
     font-size: 16px;
     margin: -20px;
+    
 }
 
 nav > a {
@@ -157,3 +158,43 @@ input[type=text], textarea {
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* @media screen 
+// Use three `@media screen` tags, each with one of these 
+//`max-width`s: `980px`, `768px` and `640px`. */
+
+@media screen and (max-width: 768px) {
+    .container, .bioimg, .nav, .name, header, body, img, p, .contact-container, input, textarea {
+        width: 100%;
+    }
+    
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 600px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .container, .bioimg, .nav, .name, header, body, img, p, .contact-container, input, textarea {
+        width: 100%;
+    }
+    
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 600px;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    .container, .bioimg, .nav, .name, header, body, img, p, .contact-container, input, textarea {
+        width: 100%;
+    }
+    
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 600px;
+    }
+  }
